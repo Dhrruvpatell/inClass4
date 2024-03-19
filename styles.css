@@ -41,38 +41,48 @@ footer p {
     font-size: 0.8em;
 }
 
-a:hover::after {
-    
-    color: #666;
-}
-h1 {
-    font-size: 2em;
-    color: blue;
-}
-nav ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-nav li {
+/* External Styles */
+header h1 {
     display: inline;
-}
-
-nav a {
-    display: inline-block;
-    padding: 10px;
-    border: 2px solid indigo;
-    font-family: Arial, sans-serif;
-    color: indigo;
-    background-color: cornsilk;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: cornsilk;
-    background-color: indigo;
-}
+    color: blue;
+  }
+  
+  /* Internal Styles */
+  /* Descendant selectors */
+  aside ul {
+    /* Add your styles for aside ul */
+  }
+  
+  /* Link hover */
+  a:hover {
+    color: cornsilk; /* Switch font color to cornsilk */
+    background-color: indigo; /* Switch background to indigo */
+  }
+  
+  /* Navigation menu styles */
+  nav.structural ul {
+    list-style-type: none; /* Remove bullet points */
+  }
+  
+  nav.structural ul li {
+    display: inline; /* Change display property for <li> to inline */
+  }
+  
+  nav.structural ul li a {
+    display: inline-block; /* Ensure borders work correctly */
+    text-decoration: none; /* Remove link underline */
+    border: 2px solid indigo; /* Set border properties */
+    border-color: indigo;
+    color: indigo; /* Set font color */
+    background-color: cornsilk; /* Set background color */
+    padding: 5px 10px; /* Add padding for better appearance */
+  }
+  
+  nav.structural ul li a:hover {
+    color: indigo; /* Switch font color to indigo */
+    background-color: cornsilk; /* Switch background to cornsilk */
+  }
+  
 
 form {
     border: 5px dashed #333; 
