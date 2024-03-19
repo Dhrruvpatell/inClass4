@@ -29,13 +29,7 @@ footer {
     clear: both;
 }
 
-#paragraph1 {
-    color: rgb(255, 0, 0); 
-}
 
-#paragraph2 {
-    color: rgb(0, 0, 255); 
-}
 
 footer p {
     font-size: 0.8em;
@@ -47,40 +41,33 @@ header h1 {
     color: blue;
   }
   
-  /* Internal Styles */
-  /* Descendant selectors */
-  aside ul {
-    /* Add your styles for aside ul */
-  }
-  
-  /* Link hover */
   a:hover {
-    color: cornsilk; /* Switch font color to cornsilk */
-    background-color: indigo; /* Switch background to indigo */
+    color: cornsilk; 
+    background-color: indigo; 
   }
   
-  /* Navigation menu styles */
+
   nav.structural ul {
-    list-style-type: none; /* Remove bullet points */
+    list-style-type: none; 
   }
   
   nav.structural ul li {
-    display: inline; /* Change display property for <li> to inline */
+    display: inline; 
   }
   
   nav.structural ul li a {
-    display: inline-block; /* Ensure borders work correctly */
-    text-decoration: none; /* Remove link underline */
-    border: 2px solid indigo; /* Set border properties */
+    display: inline-block; 
+    text-decoration: none; 
+    border: 2px solid indigo; 
     border-color: indigo;
-    color: indigo; /* Set font color */
-    background-color: cornsilk; /* Set background color */
-    padding: 5px 10px; /* Add padding for better appearance */
+    color: indigo; 
+    background-color: cornsilk; 
+    padding: 5px 10px; 
   }
   
   nav.structural ul li a:hover {
-    color: indigo; /* Switch font color to indigo */
-    background-color: cornsilk; /* Switch background to cornsilk */
+    color: indigo; 
+    background-color: cornsilk; 
   }
   
 
